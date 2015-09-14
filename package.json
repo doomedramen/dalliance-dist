@@ -1,0 +1,12 @@
+{
+  "name": "dalliance-dist",
+  "version": "0.13.0",
+  "private": true,
+  "scripts": {},
+  "dependencies": {
+    "dalliance": "dasmoth/dalliance",
+    "gulp": "^3.9.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^1.4.1"
+  }
+}
