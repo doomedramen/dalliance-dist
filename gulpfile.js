@@ -9,17 +9,17 @@ gulp.task('duplicate', function () {
 
 gulp.task('duplicate-css', function(){
   return gulp.src('./node_modules/dalliance/css/*')
-    .pipe(gulp.dest('./css'));
+    .pipe(gulp.dest('./dist/css'));
 });
 
 gulp.task('duplicate-fonts', function(){
   return gulp.src('./node_modules/dalliance/fonts/*')
-    .pipe(gulp.dest('./fonts'));
+    .pipe(gulp.dest('./dist/fonts'));
 });
 
 gulp.task('duplicate-img', function(){
   return gulp.src('./node_modules/dalliance/img/*')
-    .pipe(gulp.dest('./img'));
+    .pipe(gulp.dest('./dist/img'));
 });
 
 gulp.task('compress', ['duplicate'], function () {
