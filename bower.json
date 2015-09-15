@@ -1,18 +1,1 @@
-{
-  "name": "dalliance-dist",
-  "version": "0.13.0",
-  "authors": [
-    "Martin Page <wookoouk@gmail.com>"
-  ],
-  "description": "Fast, embeddable genome visualization",
-  "main": "dist/dalliance-all.min.js",
-  "license": "MIT",
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests",
-    ".idea"
-  ]
-}
+{"name":"dalliance-dist","version":"0.13.0","authors":["Martin Page <wookoouk@gmail.com>"],"description":"Fast, embeddable genome visualization","main":"dist/dalliance-all.min.js","license":"MIT","ignore":["**/.*","node_modules","bower_components","test","tests",".idea"]}

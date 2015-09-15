@@ -1,8 +1,10 @@
 {
   "name": "dalliance-dist",
-  "version": "0.13.0",
+  "version": "1.0.0",
   "private": true,
-  "scripts": {},
+  "scripts": {
+    "dall": "npm install && npm install dasmoth/dalliance && npm --prefix ./node_modules/dalliance install && gulp --gulpfile node_modules/dalliance/gulpfile.js && gulp"
+  },
   "dependencies": {
     "dalliance": "dasmoth/dalliance",
     "gulp": "^3.9.0",
