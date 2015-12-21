@@ -42,7 +42,7 @@ gulp.task('update-bower', function () {
   var file_content = fs.readFileSync(bowerLocation);
   var content = JSON.parse(file_content);
   content.version = version;
-  fs.writeFileSync(bowerLocation, JSON.stringify(content));
+  fs.writeFileSync(bowerLocation, JSON.stringify(content, null, 2));
 });
 
 gulp.task('default', ['duplicate', 'compress', 'update-bower']);
